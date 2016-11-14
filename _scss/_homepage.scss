@@ -1,0 +1,65 @@
+.hero{
+  background: $secondary-color;
+
+  h1{
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: $secondary-font-family;
+    line-height: 1.6;
+
+    @media screen and (#{$bp-larger-than-tablet}){
+      max-width: 95%;
+      font-size: 3rem;
+    }
+
+    @media screen and (#{$bp-larger-than-desktop}){
+      max-width: 90%;
+    }
+  }
+}
+
+
+.homepage-section{
+  @extend .page-section;
+
+  padding-top: 3rem;
+}
+
+.roles{
+
+  ul{
+    @extend .unstyled-list;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .role{
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+
+    @media screen and (#{$bp-larger-than-tablet}){
+      width: 33.333%;
+      margin-bottom: 1rem;
+    }
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    h2{
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+
+      @media screen and (#{$bp-larger-than-tablet}){
+        margin-top: 0;
+      }
+    }
+
+  }
+}
+
+.featured-work{
+  background-color: $accent-color;
+}

@@ -1,0 +1,59 @@
+.cards{
+  @extend .unstyled-list;
+
+  @media screen and (#{$bp-larger-than-phablet}){
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -2rem;
+  }
+}
+
+.card{
+  position: relative;
+  margin: 1rem 0 1rem 0;
+  padding: 1.5rem;
+  background: $white;
+  overflow: hidden;
+
+  @media screen and (#{$bp-larger-than-phablet}){
+    width: calc(50% - 2rem);
+    margin: 0 0 1rem 2rem;
+  }
+
+  @media screen and (#{$bp-larger-than-tablet}){
+    width: calc(33.3333% - 2rem);
+  }
+
+  a{
+    display: block;
+  }
+
+  .type{
+    display: block;
+    margin-bottom: 1rem;
+    color: darken($secondary-color, 10%);
+    font-size: .675rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h3{
+    margin-top: 0;
+    font-size: 1rem;
+    font-family: $base-font-family;
+    line-height: 1.4;
+    text-transform: none;
+  }
+
+  img{
+    float: right;
+    width: 25%;
+    margin-left: .75rem;
+  }
+}
+
+.book{
+  h3{
+    font-style: italic;
+  }
+}

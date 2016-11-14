@@ -1,0 +1,15 @@
+.clients{
+  @extend .unstyled-list;
+  display: flex;
+  flex-wrap: wrap;
+
+  li{
+    width: 20%;
+    text-align: center;
+
+    img{
+      @extend .responsive-img;
+      max-height: 4.5rem;
+    }
+  }
+}

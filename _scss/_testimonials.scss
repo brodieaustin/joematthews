@@ -1,0 +1,52 @@
+.testimonials{
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (#{$bp-larger-than-tablet}){
+    margin-left: -2rem;
+  }
+}
+
+.testimonial{
+  display:flex;
+  margin: 2rem 0 1em;
+  text-align: left;
+
+  @media screen and (#{$bp-larger-than-tablet}){
+    width: calc(50% - 2rem);
+    margin: 0 0 0 2rem;
+  }
+
+  .client{
+    width: 30%;
+
+    img{
+      max-width: 100%;
+      height: auto;
+      background: $accent-color;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+
+  blockquote{
+    position: relative;
+    width: calc(70% - 1rem);
+    margin: 0 0 0 1rem;
+    padding: 1.5rem;
+    background-color: $accent-color;
+    color: $font-color;
+
+    > .arrow-left{
+      position: absolute;
+      top: 2rem;
+      left: -1.5rem;
+    }
+
+    > p{
+      margin: 0;
+    }
+
+  }
+
+}

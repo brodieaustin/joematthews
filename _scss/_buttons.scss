@@ -1,0 +1,40 @@
+.button{
+  display: inline-block;
+  padding: .875rem 1.5rem;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-family: $base-font-family;
+  font-size: .75rem;
+  text-transform: uppercase;
+  transition: opacity .2s ease;
+  text-align: center;
+
+  &.more{
+    display: block;
+    width: 40%;
+    margin: 2rem auto;
+    background: $primary-color;
+    text-align: center;
+    color: $font-color;
+  }
+
+  &:hover{
+    opacity: .7;
+  }
+
+  &.border{
+    background: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+  }
+
+  &.solid{
+    background: $primary-color;
+    color: $white;
+  }
+
+  &.disabled{
+    background: transparent !important;
+  }
+}

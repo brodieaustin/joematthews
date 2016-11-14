@@ -1,0 +1,3 @@
+title: "Joe Matthews"
+baseurl: "/joematthews"
+exclude: ['node_modules', '_scss', 'gulpfile.js', 'package.json']

@@ -1,0 +1,35 @@
+.site-footer{
+  background-color: $primary-color;
+  color: $accent-color;
+
+  a{
+    color: $accent-color;
+  }
+
+  .brand{
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+.footer-nav{
+  float: left;
+  width: 50%;
+  margin-top: 1.5rem;
+  font-size: .875rem;
+
+  li{
+    display: block;
+
+    a{
+      margin-left: 0;
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+.contact{
+  float: left;
+  width: 50%;
+  margin-top: 1.5rem;
+}

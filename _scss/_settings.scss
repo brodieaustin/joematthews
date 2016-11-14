@@ -1,0 +1,22 @@
+//colors
+$primary-color: #273E47; //dark grey
+$secondary-color: #B4BCC5; //light grey
+$accent-color: #ECEEF0; //very light grey
+$white: #ffffff;
+
+$background-color: $white;
+$font-color: $primary-color;
+
+//layout
+$max-width: 64rem;
+
+//fonts
+$base-font-family: 'Merriweather Sans', sans-serif;
+$secondary-font-family: 'Merriweather', serif;
+
+//break points
+$bp-larger-than-mobile: "min-width: 25em" !default;
+$bp-larger-than-phablet: "min-width: 34.375em" !default;
+$bp-larger-than-tablet: "min-width: 53.125em" !default;
+$bp-larger-than-desktop: "min-width: 71.25em" !default;
+$bp-larger-than-desktophd: "min-width: 75em" !default;

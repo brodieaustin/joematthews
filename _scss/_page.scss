@@ -1,0 +1,85 @@
+
+.page-header{
+  background-color: $secondary-color;
+
+  > .container{
+    padding-bottom: 1rem;
+  }
+
+}
+
+.page-section{
+
+  .container{
+    padding-top: 0;
+  }
+
+  &:first-of-type{
+    .container{
+      padding-top: 3rem;
+    }
+  }
+
+  h2:first-of-type{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+}
+
+.section-label{
+  display: block;
+  margin-bottom: .125rem;
+  font-size: .8125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.section-content{
+
+  @media screen and (#{$bp-larger-than-tablet}){
+    float: left;
+    width: calc(80% - 2rem);
+    margin-right: 2rem;
+  }
+
+  ul{
+    list-style: square;
+    padding-left: 1rem;
+  }
+}
+
+.section-action{
+  margin-top: 2rem;
+
+  @media screen and (#{$bp-larger-than-tablet}){
+    float: left;
+    width: 20%;
+    margin-top: 0;
+  }
+
+  .button{
+    display: block;
+    margin: auto;
+
+    @media screen and (#{$bp-larger-than-phablet}){
+      width: 60%;
+    }
+
+    @media screen and (#{$bp-larger-than-tablet}){
+      width: 100%;
+    }
+  }
+}
+
+.related-content{
+  @extend .page-section;
+  padding-top: 3rem;
+  background-color: $accent-color;
+}
+
+.more{
+  text-align: center;
+}

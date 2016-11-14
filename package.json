@@ -1,0 +1,23 @@
+{
+  "name": "joematthews",
+  "version": "1.0.0",
+  "description": "prototype of the Joe Matthews site",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "node.normalize.scss": "^3.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brodie Austin",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,25 @@
+.site-header{
+  background: $secondary-color;
+
+  .container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.brand{
+  display: inline-block;
+  margin-top: -.25rem;
+  color: $font-color;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-family: $base-font-family;
+}
+
+.avatar{
+  display: inline-block;
+  margin-right: .5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
