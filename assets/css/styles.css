@@ -890,32 +890,47 @@ a {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
   .clients li {
-    width: 20%;
-    text-align: center; }
+    width: 33.333%;
+    margin-bottom: 2rem;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    @media screen and (min-width: 53.125em) {
+      .clients li {
+        width: 20%;
+        margin-bottom: 0; } }
     .clients li img {
       max-height: 4.5rem; }
 
 .site-footer {
   background-color: #273E47;
-  color: #ECEEF0; }
+  color: #c1c8ce; }
   .site-footer a {
-    color: #ECEEF0; }
+    color: #c1c8ce; }
   .site-footer .brand {
     display: block;
     font-size: 1rem; }
-
-.footer-nav {
-  float: left;
-  width: 50%;
-  margin-top: 1.5rem;
-  font-size: .875rem; }
-  .footer-nav li {
-    display: block; }
-    .footer-nav li a {
-      margin-left: 0;
-      margin-bottom: .5rem; }
-
-.contact {
-  float: left;
-  width: 50%;
-  margin-top: 1.5rem; }
+  .site-footer .nav {
+    width: auto;
+    margin-top: 1.5rem;
+    font-size: .875rem; }
+    @media screen and (min-width: 53.125em) {
+      .site-footer .nav {
+        float: left;
+        width: 60%; } }
+    .site-footer .nav li {
+      display: block;
+      text-align: left; }
+      .site-footer .nav li a {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: .5rem; }
+  .site-footer .contact {
+    margin-top: 3rem; }
+    @media screen and (min-width: 53.125em) {
+      .site-footer .contact {
+        float: left;
+        width: 40%;
+        margin-top: 1.5rem; } }

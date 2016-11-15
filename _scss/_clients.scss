@@ -4,8 +4,15 @@
   flex-wrap: wrap;
 
   li{
-    width: 20%;
+    width: 33.333%;
+    margin-bottom: 2rem;
     text-align: center;
+    flex-grow: 1;
+
+    @media screen and (#{$bp-larger-than-tablet}){
+      width: 20%;
+      margin-bottom: 0;
+    }
 
     img{
       @extend .responsive-img;

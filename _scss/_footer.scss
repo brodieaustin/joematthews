@@ -1,35 +1,45 @@
 .site-footer{
   background-color: $primary-color;
-  color: $accent-color;
+  color: darken($accent-color, 15%);
 
   a{
-    color: $accent-color;
+    color: darken($accent-color, 15%);
   }
 
   .brand{
     display: block;
     font-size: 1rem;
   }
-}
 
-.footer-nav{
-  float: left;
-  width: 50%;
-  margin-top: 1.5rem;
-  font-size: .875rem;
+  .nav{
+    width: auto;
+    margin-top: 1.5rem;
+    font-size: .875rem;
 
-  li{
-    display: block;
+    @media screen and (#{$bp-larger-than-tablet}){
+      float: left;
+      width: 60%;
+    }
 
-    a{
-      margin-left: 0;
-      margin-bottom: .5rem;
+    li{
+      display: block;
+      text-align: left;
+
+      a{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: .5rem;
+      }
     }
   }
-}
 
-.contact{
-  float: left;
-  width: 50%;
-  margin-top: 1.5rem;
+  .contact{
+    margin-top: 3rem;
+
+    @media screen and (#{$bp-larger-than-tablet}){
+      float: left;
+      width: 40%;
+      margin-top: 1.5rem;
+    }
+  }
 }
