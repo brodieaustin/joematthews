@@ -563,7 +563,6 @@ a {
 
 .brand {
   display: inline-block;
-  margin-top: -.25rem;
   color: #273E47;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -579,6 +578,7 @@ a {
 
 .site-nav {
   position: fixed;
+  top: 8rem;
   left: -100%;
   width: 100%;
   height: 100%;
@@ -623,7 +623,7 @@ a {
     @media screen and (min-width: 53.125em) {
       .nav a {
         margin-top: 0;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         color: #273E47; } }
     @media screen and (min-width: 71.25em) {
       .nav a {
@@ -635,7 +635,7 @@ a {
   display: inline-block;
   float: right;
   height: auto;
-  padding: .375rem 1rem;
+  margin-top: .5rem;
   background: transparent;
   border: 0;
   color: #273E47;

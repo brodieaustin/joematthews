@@ -1,5 +1,6 @@
 .site-nav{
   position: fixed;
+  top: 8rem;
   left: -100%;
   width: 100%;
   height: 100%;
@@ -53,7 +54,7 @@
 
     @media screen and (#{$bp-larger-than-tablet}){
       margin-top: 0;
-      margin-left: 2rem;
+      margin-left: 1.5rem;
       color: $primary-color;
     }
 
@@ -71,7 +72,8 @@
   display: inline-block;
   float: right;
   height: auto;
-  padding: .375rem 1rem;
+  margin-top: .5rem;
+  //padding: .375rem 1rem;
   background: transparent;
   border: 0;
   color: $primary-color;
