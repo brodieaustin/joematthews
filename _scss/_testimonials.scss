@@ -9,12 +9,12 @@
 
 .testimonial{
   display:flex;
-  margin: 2rem 0 1em;
+  margin: 0 0 2rem 0;
   text-align: left;
 
   @media screen and (#{$bp-larger-than-tablet}){
     width: calc(50% - 2rem);
-    margin: 0 0 0 2rem;
+    margin: 0 0 1rem 2rem;
   }
 
   .client{
