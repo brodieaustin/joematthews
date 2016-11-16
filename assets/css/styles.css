@@ -655,16 +655,17 @@ a {
   background: #B4BCC5; }
   .hero h1 {
     margin: 0;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: "Merriweather", serif;
     line-height: 1.6; }
     @media screen and (min-width: 53.125em) {
       .hero h1 {
         max-width: 95%;
-        font-size: 2.75rem; } }
+        font-size: 2.5rem; } }
     @media screen and (min-width: 71.25em) {
       .hero h1 {
-        max-width: 90%; } }
+        max-width: 90%;
+        font-size: 2.65rem; } }
 
 .homepage-section {
   padding-top: 3rem; }
@@ -775,8 +776,8 @@ a {
 @media screen and (min-width: 53.125em) {
   .section-content {
     float: left;
-    width: -webkit-calc(80% - 2rem);
-    width: calc(80% - 2rem);
+    width: -webkit-calc(70% - 2rem);
+    width: calc(70% - 2rem);
     margin-right: 2rem; } }
 
 .section-content ul {
@@ -787,7 +788,7 @@ a {
   margin-top: 2rem; }
   @media screen and (min-width: 53.125em) {
     .section-action {
-      float: left;
+      float: right;
       width: 20%;
       margin-top: 0; } }
   .section-action .button {

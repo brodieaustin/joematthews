@@ -3,17 +3,18 @@
 
   h1{
     margin: 0;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: $secondary-font-family;
     line-height: 1.6;
 
     @media screen and (#{$bp-larger-than-tablet}){
       max-width: 95%;
-      font-size: 2.75rem;
+      font-size: 2.5rem;
     }
 
     @media screen and (#{$bp-larger-than-desktop}){
       max-width: 90%;
+      font-size: 2.65rem;
     }
   }
 }
